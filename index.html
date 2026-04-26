@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jackson Heights Markets</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <nav class="navbar">
+        <div class="logo">Shop Jackson Heights</div>
+        <div class="menu-icon" onclick="toggleMenu()">☰</div>
+        <ul class="nav-links" id="navLinks">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#markets">Local Markets</a></li>
+            <li><a href="#flashcards">Gentrification Impact</a></li>
+            <li><a href="#support">Support Local</a></li>
+        </ul>
+    </nav>
+
+    <!-- HERO SECTION -->
+    <section id="home" class="hero">
+        <h1>Supporting Jackson Heights Markets</h1>
+        <p>Celebrating the cultural small businesses that make our neighborhood home.</p>
+        <a href="#markets" class="cta-btn">Explore Local Markets</a>
+    </section>
+
+    <!-- LOCAL MARKETS SECTION -->
+    <section id="markets" class="section">
+        <h2>Local Markets to Support</h2>
+        <p class="section-desc">These culturally rooted markets keep Jackson Heights vibrant. Visit them, shop with them, and help keep our neighborhood unique.</p>
+
+        <div class="market-grid">
+
+            <div class="market-card">
+                <img src="greenmarket.webp" alt="Market">
+                <h3>Jackson Heights Greenmarket</h3>
+                <h4>Open Sundays 8AM-2PM</h4>
+                <p>A Sunday market offering fresh produce, baked goods, meats, and specialty regional foods directly from local farmers.</p>
+          
+            </div>
+
+            <div class="market-card">
+                <img src="apnabazar.jpg" alt="Market">
+                <h3>Apna Bazar Farmers Market</h3>
+                <h4>Open 24 Hours Monday-Friday</h4>
+                <p>A staple South Asian grocery with fresh produce, spices, dals, snacks, and affordable cultural essentials.</p>
+            </div>
+
+            <div class="market-card">
+                <img src="hispanoamericano.webp" alt="Market">
+                <h3>Hispanoamericana Meat Market</h3>
+                <h4>All Week 8AM-7PM</h4>
+                <p>A trusted Colombian butcher and grocery known for quality meats and Latin American pantry staples.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- GENTRIFICATION IMPACT SECTION
+    <section id="closures" class="section alt">
+        <h2>The Impact of Gentrification</h2>
+        <p class="section-desc">Many culturally specific markets have closed in the past decade. Here’s how the neighborhood has changed.</p>
+
+        <div class="closure-grid">
+
+            <div class="closure-card">
+                <h3>Before → After</h3>
+                <img src="images/before1.jpg" alt="Before">
+                <img src="images/after1.jpg" alt="After">
+                <p class="impact-text">A long‑standing deli replaced by a smoke shop — a common pattern across the neighborhood.</p>
+            </div>
+
+            <div class="closure-card">
+                <h3>Before → After</h3>
+                <img src="images/before2.jpg" alt="Before">
+                <img src="images/after2.jpg" alt="After">
+                <p class="impact-text">A culturally specific grocery replaced by a construction site and later a café.</p>
+            </div>
+
+        </div>
+
+        <p class="impact-summary">
+            As e‑commerce grows, fewer people shop locally. Combined with rising rents, many markets can’t survive — and the cultural identity of Jackson Heights fades with them.
+        </p>
+    </section> -->
+
+    <section id="flashcards" class="section">
+    <h2>Before & After: Changing Storefronts</h2>
+    <p class="section-desc">Swipe through six businesses to see how gentrification and e‑commerce have reshaped Jackson Heights.</p>
+
+    <div class="flashcard-container">
+        <div class="flashcard-track" id="flashcardTrack">
+
+            <!-- CARD 1 -->
+            <div class="flashcard">
+                <div class="card-inner">
+                    <div class="card-face card-front">
+                        <img src="jong hap.jpg" alt="Before">
+                        <h3>Chong Hap Market</h3>
+                        <h4>Before</h4>
+                        <p>A long‑standing Korean grocery serving fresh produce and homemade staples.</p>
+                
+                    </div>
+                    <div class="card-face card-back">
+                        <img src="junghap after.png" alt="After">
+                        <h3>Parking Lot</h3>
+                        <h4>After</h4>
+                        <p>Replaced by a parking lot, removing a community‑serving storefront entirely.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 2 -->
+            <div class="flashcard">
+                <div class="card-inner">
+                    <div class="card-face card-front">
+                        <img src="ajani before.webp" alt="Before">
+                        <h3>Ajani/Sherpa Deli</h3>
+                                                <h4>Before</h4>
+
+                        <p>A Nepali‑Tibetan deli offering snacks, drinks, and community‑friendly service.</p>
+                    </div>
+                    <div class="card-face card-back">
+                        <img src="ajani after.png" alt="After">
+                        <h3>Smoke Shop</h3>
+                                                <h4>After</h4>
+
+                        <p>Converted into a generic convenience store with no cultural identity.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 3 -->
+            <div class="flashcard">
+                <div class="card-inner">
+                    <div class="card-face card-front">
+                        <img src="amanecer.jpg" alt="Before">
+                        <h3>El Nuevo Amanecer</h3>
+                                                <h4>Before</h4>
+
+                        <p>A Latino grocery offering fresh produce and Latin American staples.</p>
+                    </div>
+                    <div class="card-face card-back">
+                        <img src="amanecer after.png" alt="After">
+                        <h3>Local Chinese Market</h3>
+                                                <h4>After</h4>
+
+                        <p>Chinese Supermarket buys old space and expands next door.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 4 -->
+            <div class="flashcard">
+                <div class="card-inner">
+                    <div class="card-face card-front">
+                        <img src="79 before.png" alt="Before">
+                        <h3>79th Street Deli</h3>
+                                                <h4>Before</h4>
+
+                        <p>A neighborhood deli providing everyday groceries and quick meals.</p>
+                    </div>
+                    <div class="card-face card-back">
+                        <img src="79 after.png" alt="After">
+                        <h3>Smoke Shop</h3>
+                                                <h4>After</h4>
+
+                        <p>Shut down and replaced by a smoke shop, a common neighborhood trend.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 5 -->
+            <div class="flashcard">
+                <div class="card-inner">
+                    <div class="card-face card-front">
+                        <img src="84 before.png" alt="Before">
+                        <h3>84 News Inc & Grocery</h3>
+                                                <h4>Before</h4>
+
+                        <p>A small grocery and newsstand serving local families for years.</p>
+                    </div>
+                    <div class="card-face card-back">
+                        <img src="84 after.jpg" alt="After">
+                        <h3>Choco Loca</h3>
+                                                <h4>After</h4>
+
+                        <p>Closed and replaced by a construction site, later becoming a café.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- CARD 6 -->
+            <div class="flashcard">
+                <div class="card-inner">
+                    <div class="card-face card-front">
+                        <img src="brothers.png" alt="Before">
+                        <h3>The Brothers Grocery</h3>
+                                                <h4>Before</h4>
+
+                        <p>A Mexican‑owned corner store known for affordable essentials.</p>
+                    </div>
+                    <div class="card-face card-back">
+                        <img src="brothers after.png" alt="After">
+                        <h3>Sariling Atin</h3>
+                                                <h4>After</h4>
+
+                        <p>Replaced by a Filipino market, shifting but not erasing cultural presence.</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="flashcard-controls">
+        <button id="prevCard">←</button>
+        <button id="nextCard">→</button>
+    </div>
+</section>
+
+
+    <!-- SUPPORT LOCAL SECTION -->
+    <section id="support" class="section">
+        <h2>Why Support Local?</h2>
+
+        <div class="support-points">
+            <div class="point">
+                <h3>Cultural Foods You Can’t Get Online</h3>
+                <p>Fresh spices, homemade sauces, and ingredients tied to immigrant traditions.</p>
+            </div>
+
+            <div class="point">
+                <h3>Community Connection</h3>
+                <p>Local markets are gathering places — not just stores.</p>
+            </div>
+
+            <div class="point">
+                <h3>Keep Jackson Heights Unique</h3>
+                <p>Every purchase helps preserve the neighborhood’s cultural identity.</p>
+            </div>
+        </div>
+
+        <a href="#markets" class="cta-btn">Visit a Local Market Today</a>
+    </section>
+
+    <footer>
+        <p>Jackson Heights, Queens</p>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
